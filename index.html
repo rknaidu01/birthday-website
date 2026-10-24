@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#f9a8d4" />
+  <title>Happy Birthday, Mannam Maneesha! 💗</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== FLOATING PARTICLES (global) ========== -->
+  <div id="particles-container" aria-hidden="true"></div>
+
+  <!-- ========== PROGRESS BAR ========== -->
+  <div id="progress-bar" role="progressbar" aria-label="Journey progress" aria-valuenow="1" aria-valuemin="1" aria-valuemax="5">
+    <div class="progress-dots">
+      <span class="dot active" data-screen="1" title="Welcome"></span>
+      <span class="dot" data-screen="2" title="Thoughts"></span>
+      <span class="dot" data-screen="3" title="Gallery"></span>
+      <span class="dot" data-screen="4" title="Gift"></span>
+      <span class="dot" data-screen="5" title="Birthday"></span>
+    </div>
+    <div class="progress-label" id="progress-label">Chapter 1 of 5</div>
+  </div>
+
+  <!-- ========== SCREEN 1 — WELCOME ========== -->
+  <section id="screen-1" class="screen active" aria-label="Welcome screen">
+    <div class="screen-inner">
+
+      <div class="portrait-wrapper" aria-hidden="true">
+        <div class="portrait-glow-ring"></div>
+        <div class="portrait-frame">
+          <div class="portrait-inner">
+            <!-- Anime / aesthetic SVG illustration -->
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="portrait-svg" aria-label="Cute anime girl illustration">
+              <!-- Background circle -->
+              <circle cx="100" cy="100" r="100" fill="url(#bgGrad)"/>
+              <!-- Dress / body -->
+              <ellipse cx="100" cy="175" rx="55" ry="40" fill="url(#dressGrad)"/>
+              <!-- Arms -->
+              <ellipse cx="55" cy="140" rx="14" ry="8" fill="#fdd8d8" transform="rotate(-30 55 140)"/>
+              <ellipse cx="145" cy="140" rx="14" ry="8" fill="#fdd8d8" transform="rotate(30 145 140)"/>
+              <!-- Neck -->
+              <rect x="90" y="105" width="20" height="22" rx="8" fill="#fdd8d8"/>
+              <!-- Head -->
+              <ellipse cx="100" cy="90" rx="38" ry="42" fill="#fdd8d8"/>
+              <!-- Hair back -->
+              <ellipse cx="100" cy="75" rx="40" ry="44" fill="#8b5cf6"/>
+              <!-- Side hair -->
+              <ellipse cx="66" cy="100" rx="12" ry="30" fill="#8b5cf6"/>
+              <ellipse cx="134" cy="100" rx="12" ry="30" fill="#8b5cf6"/>
+              <!-- Hair bangs -->
+              <ellipse cx="100" cy="62" rx="38" ry="18" fill="#7c3aed"/>
+              <ellipse cx="72" cy="68" rx="12" ry="16" fill="#7c3aed"/>
+              <ellipse cx="128" cy="68" rx="12" ry="16" fill="#7c3aed"/>
+              <!-- Face -->
+              <ellipse cx="100" cy="95" rx="30" ry="32" fill="#fce4e4"/>
+              <!-- Eyes -->
+              <ellipse cx="87" cy="88" rx="8" ry="9" fill="white"/>
+              <ellipse cx="113" cy="88" rx="8" ry="9" fill="white"/>
+              <ellipse cx="87" cy="89" rx="5" ry="6" fill="#6d28d9"/>
+              <ellipse cx="113" cy="89" rx="5" ry="6" fill="#6d28d9"/>
+              <circle cx="88" cy="87" r="2" fill="white"/>
+              <circle cx="114" cy="87" r="2" fill="white"/>
+              <!-- Eyelashes -->
+              <path d="M79 83 Q82 79 87 82" stroke="#4c1d95" stroke-width="1.5" fill="none"/>
+              <path d="M121 83 Q118 79 113 82" stroke="#4c1d95" stroke-width="1.5" fill="none"/>
+              <!-- Blush -->
+              <ellipse cx="76" cy="98" rx="9" ry="5" fill="#f9a8d4" opacity="0.6"/>
+              <ellipse cx="124" cy="98" rx="9" ry="5" fill="#f9a8d4" opacity="0.6"/>
+              <!-- Nose -->
+              <ellipse cx="100" cy="97" rx="2.5" ry="1.5" fill="#f0a0a0" opacity="0.6"/>
+              <!-- Smile -->
+              <path d="M90 106 Q100 114 110 106" stroke="#d97706" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+              <!-- Bow / hair clip -->
+              <path d="M115 62 Q122 55 128 60 Q122 65 115 62Z" fill="#f472b6"/>
+              <path d="M128 60 Q135 55 140 62 Q135 67 128 60Z" fill="#f472b6"/>
+              <circle cx="128" cy="60" r="4" fill="#ec4899"/>
+              <!-- Ear ring -->
+              <circle cx="68" cy="95" r="3" fill="#fbbf24" opacity="0.9"/>
+              <circle cx="132" cy="95" r="3" fill="#fbbf24" opacity="0.9"/>
+              <!-- Star sparkles around head -->
+              <text x="30" y="50" font-size="14" opacity="0.8">✦</text>
+              <text x="155" y="45" font-size="12" opacity="0.7">✦</text>
+              <text x="165" y="80" font-size="10" opacity="0.6">✧</text>
+              <defs>
+                <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#fce7f3"/>
+                  <stop offset="100%" stop-color="#e9d5ff"/>
+                </radialGradient>
+                <linearGradient id="dressGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#f9a8d4"/>
+                  <stop offset="100%" stop-color="#c084fc"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <!-- Floating items around portrait -->
+        <span class="float-item fi-1" aria-hidden="true">🌸</span>
+        <span class="float-item fi-2" aria-hidden="true">💫</span>
+        <span class="float-item fi-3" aria-hidden="true">🦋</span>
+        <span class="float-item fi-4" aria-hidden="true">✨</span>
+        <span class="float-item fi-5" aria-hidden="true">💗</span>
+        <span class="float-item fi-6" aria-hidden="true">🌷</span>
+      </div>
+
+      <div class="welcome-text">
+        <p class="welcome-date" aria-label="Special date">24 October · Her Special Day</p>
+        <h1 class="welcome-heading">Hey, Mannam Maneesha!&nbsp;<span class="heart-pulse">💗</span></h1>
+        <p class="welcome-subtitle">
+          I made a little world just for you. A few cute things, a few honest thoughts,
+          and one tiny surprise waiting at the end.&nbsp;🦋
+        </p>
+        <button class="btn btn-primary" id="btn-start" aria-label="Tap to begin the journey">
+          Tap to begin 💌 →
+        </button>
+        <p class="welcome-secret">psst… this is just for you ♡</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SCREEN 2 — COMPLIMENTS ========== -->
+  <section id="screen-2" class="screen" aria-label="Secret compliments screen">
+    <div class="screen-inner">
+
+      <h2 class="section-heading">Things I secretly admire about you&nbsp;💕</h2>
+
+      <div class="compliment-card" id="compliment-card" role="region" aria-live="polite" aria-label="Compliment card">
+        <div class="compliment-counter" id="compliment-counter">LITTLE THOUGHT 1 OF 5</div>
+        <div class="compliment-emoji" id="compliment-emoji" aria-hidden="true">🌸</div>
+        <p class="compliment-text" id="compliment-text">Your smile could make an ordinary day feel magical.</p>
+        <p class="compliment-caption" id="compliment-caption">A little light in every room ✨</p>
+      </div>
+
+      <div class="compliment-actions">
+        <button class="btn btn-outline" id="btn-another" aria-label="Show another compliment">
+          Another little thought ✨
+        </button>
+      </div>
+
+      <div class="screen-nav">
+        <button class="btn btn-ghost" id="btn-s2-back" aria-label="Go back to welcome screen">← Back</button>
+        <button class="btn btn-primary" id="btn-s2-next" aria-label="Continue to photo gallery">Show me more 🌸</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SCREEN 3 — GALLERY ========== -->
+  <section id="screen-3" class="screen" aria-label="Photo gallery screen">
+    <div class="screen-inner">
+
+      <h2 class="section-heading">A little world of cuteness&nbsp;🌈</h2>
+      <p class="section-subtitle">Tap each picture to reveal a tiny note. ♡</p>
+
+      <div class="gallery-grid" id="gallery-grid" role="list">
+        <!-- Cards inserted by JS -->
+      </div>
+
+      <div class="gallery-message-box" id="gallery-message-box" aria-live="polite" hidden>
+        <span class="gallery-message-icon" id="gallery-msg-icon">💗</span>
+        <p class="gallery-message-text" id="gallery-msg-text"></p>
+      </div>
+
+      <div class="screen-nav">
+        <button class="btn btn-ghost" id="btn-s3-back" aria-label="Go back to compliments">← One more thought</button>
+        <button class="btn btn-primary" id="btn-s3-next" aria-label="Go to the gift">There's a gift for you 🎁</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SCREEN 4 — GIFT ========== -->
+  <section id="screen-4" class="screen" aria-label="Gift opening screen">
+    <div class="screen-inner">
+
+      <h2 class="section-heading gift-heading">One last little surprise…</h2>
+      <p class="section-subtitle">A small gift, wrapped up with a message from my heart.</p>
+
+      <div class="gift-stage">
+        <div class="gift-orbit" aria-hidden="true">
+          <span class="orbit-dot od-1">🌸</span>
+          <span class="orbit-dot od-2">✨</span>
+          <span class="orbit-dot od-3">💫</span>
+          <span class="orbit-dot od-4">🦋</span>
+          <span class="orbit-dot od-5">🌷</span>
+          <span class="orbit-dot od-6">⭐</span>
+        </div>
+        <button
+          class="gift-box"
+          id="gift-box"
+          aria-label="Tap the gift box to open it"
+          tabindex="0"
+        >
+          <span class="gift-emoji" id="gift-emoji">🎁</span>
+        </button>
+      </div>
+
+      <p class="gift-instruction" id="gift-instruction">Tap the gift box to open it ♡</p>
+      <p class="gift-reveal-msg" id="gift-reveal-msg" hidden>A little love was hiding inside… ♡</p>
+
+      <div class="screen-nav" id="gift-nav">
+        <button class="btn btn-ghost" id="btn-s4-back" aria-label="Go back to gallery">← Back to gallery</button>
+        <button class="btn btn-primary" id="btn-s4-next" hidden aria-label="Open the birthday surprise">Open your birthday surprise 💖</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SCREEN 5 — BIRTHDAY REVEAL ========== -->
+  <section id="screen-5" class="screen" aria-label="Birthday reveal screen">
+    <div class="screen-inner reveal-inner">
+
+      <div class="reveal-top-deco" aria-hidden="true">
+        <span class="reveal-flower rf-1">🌸</span>
+        <span class="reveal-flower rf-2">🌷</span>
+        <span class="reveal-flower rf-3">🦋</span>
+        <span class="reveal-flower rf-4">✨</span>
+        <span class="reveal-flower rf-5">💫</span>
+        <span class="reveal-flower rf-6">🌸</span>
+      </div>
+
+      <p class="reveal-date">24 OCTOBER · YOUR SPECIAL DAY ✨</p>
+
+      <div class="cake-wrapper" aria-hidden="true">
+        <div class="cake-glow"></div>
+        <span class="cake-emoji">🎂</span>
+        <div class="candles-row">
+          <span class="candle-flame">🕯️</span>
+          <span class="candle-flame">🕯️</span>
+          <span class="candle-flame">🕯️</span>
+        </div>
+      </div>
+
+      <h1 class="reveal-heading">
+        Happy Birthday,<br/>
+        <span class="reveal-name" id="reveal-name">Mannam Maneesha!</span>
+        <span class="reveal-heart">💗</span>
+      </h1>
+
+      <p class="reveal-subtitle">
+        Today deserves extra sparkle because someone as lovely as you was born.
+      </p>
+
+      <div class="birthday-card">
+        <div class="birthday-card-inner">
+          <p class="birthday-message" id="birthday-message"></p>
+          <p class="birthday-signoff">with a little secret affection, ♡</p>
+        </div>
+      </div>
+
+      <div class="reveal-actions">
+        <button class="btn btn-primary" id="btn-sparkle" aria-label="Trigger sparkle animation">
+          Make it sparkle again ✨
+        </button>
+        <button class="btn btn-outline" id="btn-replay" aria-label="Replay the surprise from the beginning">
+          Replay the surprise ↺
+        </button>
+      </div>
+
+      <div class="reveal-bottom-deco" aria-hidden="true">
+        <span>🌟</span><span>💗</span><span>🦋</span><span>✨</span><span>🌸</span><span>💫</span><span>🌷</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== CONFETTI CANVAS ========== -->
+  <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
